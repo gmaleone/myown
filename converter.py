@@ -11,5 +11,8 @@ app.geometry("500x300")
 label = ctk.CTkLabel(app, text="Paste URL here")
 label.pack(padx=10, pady=10)
 
+url_entry = ctk.CTkEntry(app)
+url_entry.pack(padx=10, pady=10)
+
 app.mainloop()
 
